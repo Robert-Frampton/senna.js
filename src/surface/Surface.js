@@ -5,12 +5,15 @@ import { core, Disposable } from 'metal';
 import dom from 'metal-dom';
 import CancellablePromise from 'metal-promise';
 
+/**
+ * Surface class representing the references to elements on the page that
+ * can potentially be updated by <code>App</code>.
+ * @param {string} id
+ * @constructor
+ */
 class Surface extends Disposable {
 
 	/**
-	 * Surface class representing the references to elements on the page that
-	 * can potentially be updated by <code>App</code>.
-	 * @param {string} id
 	 * @constructor
 	 */
 	constructor(id) {

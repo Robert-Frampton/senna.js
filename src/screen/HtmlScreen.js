@@ -10,13 +10,16 @@ import UA from 'metal-useragent';
 import Uri from 'metal-uri';
 import utils from '../utils/utils';
 
+/**
+ * Screen class that perform a request and extracts surface contents from
+ * the response content.
+ * @constructor
+ * @extends {RequestScreen}
+ */
 class HtmlScreen extends RequestScreen {
 
 	/**
-	 * Screen class that perform a request and extracts surface contents from
-	 * the response content.
 	 * @constructor
-	 * @extends {RequestScreen}
 	 */
 	constructor() {
 		super();

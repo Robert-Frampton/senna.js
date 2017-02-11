@@ -12,12 +12,15 @@ import Screen from '../screen/Screen';
 import Surface from '../surface/Surface';
 import Uri from 'metal-uri';
 
+/**
+ * App class that handle routes and screens lifecycle.
+ * @constructor
+ * @extends {EventEmitter}
+ */
 class App extends EventEmitter {
 
 	/**
-	 * App class that handle routes and screens lifecycle.
 	 * @constructor
-	 * @extends {EventEmitter}
 	 */
 	constructor() {
 		super();

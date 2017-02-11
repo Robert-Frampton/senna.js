@@ -11,13 +11,16 @@ import Screen from './Screen';
 import Uri from 'metal-uri';
 import UA from 'metal-useragent';
 
+/**
+ * Request screen abstract class to perform io operations on descendant
+ * screens.
+ * @constructor
+ * @extends {Screen}
+ */
 class RequestScreen extends Screen {
 
 	/**
-	 * Request screen abstract class to perform io operations on descendant
-	 * screens.
 	 * @constructor
-	 * @extends {Screen}
 	 */
 	constructor() {
 		super();

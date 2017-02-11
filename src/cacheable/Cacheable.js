@@ -2,10 +2,13 @@
 
 import { Disposable } from 'metal';
 
+/**
+ * Abstract class for defining cacheable behavior.
+ * @constructor
+ */
 class Cacheable extends Disposable {
 
 	/**
-	 * Abstract class for defining cacheable behavior.
 	 * @constructor
 	 */
 	constructor() {

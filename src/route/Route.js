@@ -3,12 +3,15 @@
 import { core } from 'metal';
 import { extractData, parse, toRegex } from 'metal-path-parser';
 
+/**
+ * Route class.
+ * @param {!string|RegExp|Function} path
+ * @param {!Function} handler
+ * @constructor
+ */
 class Route {
 
 	/**
-	 * Route class.
-	 * @param {!string|RegExp|Function} path
-	 * @param {!Function} handler
 	 * @constructor
 	 */
 	constructor(path, handler) {

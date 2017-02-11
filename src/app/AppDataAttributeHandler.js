@@ -7,10 +7,13 @@ import App from './App';
 import HtmlScreen from '../screen/HtmlScreen';
 import Route from '../route/Route';
 
+/**
+ * Initilizes App, register surfaces and routes from data attributes.
+ * @constructor
+ */
 class AppDataAttributeHandler extends Disposable {
 
 	/**
-	 * Initilizes App, register surfaces and routes from data attributes.
 	 * @constructor
 	 */
 	constructor() {

@@ -5,14 +5,17 @@ import { globalEval } from 'metal-dom';
 import Cacheable from '../cacheable/Cacheable';
 import CancellablePromise from 'metal-promise';
 
+/**
+ * Screen class is a special type of route handler that provides helper
+ * utilities that adds lifecycle and methods to provide content to each
+ * registered surface.
+ * @constructor
+ * @extends {Cacheable}
+ */
 class Screen extends Cacheable {
 
 	/**
-	 * Screen class is a special type of route handler that provides helper
-	 * utilities that adds lifecycle and methods to provide content to each
-	 * registered surface.
 	 * @constructor
-	 * @extends {Cacheable}
 	 */
 	constructor() {
 		super();
